@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' "
+    />
+    <title>Hello from Second window</title>
+    <style>
+      body {
+        user-select: none;
+        -webkit-app-region : drag;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello from Second Windows</h1>
+    <p>👋</p>
+    <input style="-webkit-app-region : no-drag;" name="name" placeholder="your name" type="text" />
+  </body>
+</html>

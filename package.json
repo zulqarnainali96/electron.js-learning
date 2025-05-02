@@ -1,0 +1,15 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "This is for learning electron.js framework",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch" : "nodemon --exec electron ."
+  },
+  "author": "Zain-Hashmi",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^36.0.1"
+  }
+}
